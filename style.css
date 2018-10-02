@@ -1,0 +1,50 @@
+h1{
+
+	border-bottom: 5px solid green;
+	width: 170px;
+	border-right: 5px solid green;
+	text-align: center;
+	font-family: sans-serif;
+	box-shadow: 4px 4px 5px #888888;
+}
+
+body{
+	background-color: rgba(150, 76, 110, 0.5);
+}
+
+.calculator {
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: rgba(201, 76, 76, 0.5);
+}
+
+.container form{
+
+	display: table;
+    width:300px;
+    text-align: left;
+}
+
+.container p{
+	display: table-row;
+}
+
+.container label{
+	display: table-cell;
+}
+.container input {
+
+	display: table-cell;
+    /*width:100px;*/
+    text-align: left;
+}
+
+.buttonFlex{
+	display: inline-flex;
+	/*justify-content: center;*/
+	/*background-color: yellow;*/
+	padding: 5px;
+
+}

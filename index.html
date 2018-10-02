@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Calculator</h1>
+	<div class="calculator">
+<div class="container">
+	<form name="formCalc">
+		<p>
+			<label for="txtnum1">First Number:</label>
+			<input type="text" id="txtnum1" name="txtnum1" placeholder="Enter digit">
+		</p>
+		<p>
+			<label for="txtnum2">Second Number:</label>
+			<input type="text" id="txtnum2" name="txtnum2" placeholder="Enter digit"> <br>
+		</p>
+		<p>
+			<label for="txtres">Result:</label>
+			<input type="text" id="txtres" name="txtres" placeholder="Result"> <br>
+		</p>	
+</div>
+<div class="buttonFlex">
+		<input type="button" value="+" onclick="ADDnumber()">
+</div>
+<div class="buttonFlex">		
+		<input type="button" value="-" onclick="SUBTRACTnumber()">
+</div>
+<div class="buttonFlex">
+		<input type="button" value="*" onclick="Multiplynumber()">
+</div>
+<div class="buttonFlex">
+		<input type="button" value="/" onclick="Dividenumber()">
+</div>
+	</form>
+</div>
+
+	<script type="text/javascript" src="jscript.js"></script>
+</body>
+</html>
